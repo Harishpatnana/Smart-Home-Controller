@@ -17,8 +17,8 @@ bool fanState = false;
 bool lightState = false;
 bool doorLocked = false;
 
-const char* ssid = "RVR@IOT-LAB";       // Replace with your Wi-Fi SSID
-const char* password = "";   // Replace with your Wi-Fi Password
+const char* ssid = "YourUserName";       // Replace with your Wi-Fi SSID
+const char* password = "YourPassword";   // Replace with your Wi-Fi Password
 
 void setup() {
   Serial.begin(115200);
